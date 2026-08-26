@@ -4,6 +4,7 @@
     <TargetFramework>net462</TargetFramework>
     <AssemblyName>PlayniteLibraryServer</AssemblyName>
     <RootNamespace>PlayniteLibraryServer</RootNamespace>
+    <UseWPF>true</UseWPF>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
