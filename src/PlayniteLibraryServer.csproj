@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="PlayniteSDK" Version="6.15.0" />
+    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>
