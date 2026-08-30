@@ -1,0 +1,11 @@
+project:
+  name: Playnite Library Server
+  owner: Garulf
+  repo: playnite-library-server
+  license: MIT
+  tagline: Playnite extension that serves your game library over local HTTP.
+badges: [license]
+donate: [buymeacoffee, github-sponsors]
+donate_handles:
+  buymeacoffee: garulf
+  github-sponsors: Garulf
