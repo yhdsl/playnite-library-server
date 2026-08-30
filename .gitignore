@@ -1,4 +1,6 @@
 bin/
 obj/
+dist/
+*.pext
 *.user
 .vs/
