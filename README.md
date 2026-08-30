@@ -3,7 +3,7 @@
 
 Playnite extension that serves your game library over local HTTP.
 
-[![License](https://img.shields.io/github/license/Garulf/playnite-library-server)](https://github.com/Garulf/playnite-library-server/blob/main/LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/Garulf/playnite-library-server/tests.yml)](https://github.com/Garulf/playnite-library-server/actions/workflows/tests.yml) [![Release](https://img.shields.io/github/v/release/Garulf/playnite-library-server)](https://github.com/Garulf/playnite-library-server/releases/latest) [![License](https://img.shields.io/github/license/Garulf/playnite-library-server)](https://github.com/Garulf/playnite-library-server/blob/main/LICENSE)
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-FFDD00?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/garulf) [![Sponsor](https://img.shields.io/github/sponsors/Garulf?logo=githubsponsors)](https://github.com/sponsors/Garulf)
 

@@ -4,7 +4,8 @@ project:
   repo: playnite-library-server
   license: MIT
   tagline: Playnite extension that serves your game library over local HTTP.
-badges: [license]
+  ci_workflow: tests.yml
+badges: [ci, github-release, license]
 donate: [buymeacoffee, github-sponsors]
 donate_handles:
   buymeacoffee: garulf
