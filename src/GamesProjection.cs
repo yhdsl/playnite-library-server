@@ -23,6 +23,7 @@ namespace PlayniteLibraryServer
             {
                 ["id"] = game.Id.ToString(),
                 ["name"] = game.Name,
+                ["sortingName"] = game.SortingName,
                 ["isInstalled"] = game.IsInstalled,
                 ["hidden"] = game.Hidden,
                 ["installDirectory"] = game.InstallDirectory,
@@ -30,10 +31,14 @@ namespace PlayniteLibraryServer
                 ["coverImage"] = game.CoverImage,
                 ["playtime"] = game.Playtime,
                 ["lastActivity"] = game.LastActivity?.ToUniversalTime().ToString("o"),
+                ["releaseDate"] = game.ReleaseDate,
+                ["completionStatus"] = game.CompletionStatus,
                 ["links"] = (game.Links ?? new System.Collections.ObjectModel.ObservableCollection<Link>())
                     .Select(l => new Dictionary<string, string> { ["name"] = l.Name, ["url"] = l.Url })
                     .ToList(),
+                ["platforms"] = game.Platforms,
                 ["source"] = sourceName,
+                ["version"] = game.Version,
             };
         }
     }
