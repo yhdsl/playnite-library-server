@@ -20,9 +20,9 @@ namespace PlayniteLibraryServer.Settings
 
             var description = new TextBlock
             {
-                Text = "Serves your game library on localhost so other tools (like the Flow Launcher "
-                    + "Playnite plugin) can read it without opening games.db directly. Restart "
-                    + "Playnite after changing the port.",
+                Text = "在本地主机 (localhost) 上托管 Playnite 的游戏库，以便宇其他软件"
+                    + "(例如 Flow Launcher 的 Playnite 插件) 无需直接读取 games.db 即可获取游戏信息"
+                    + "在更改端口后，请重启 Playnite。",
                 TextWrapping = TextWrapping.Wrap,
                 Margin = new Thickness(0, 0, 0, 12),
             };
@@ -30,7 +30,7 @@ namespace PlayniteLibraryServer.Settings
 
             var portLabel = new TextBlock
             {
-                Text = "Port:",
+                Text = "端口:",
                 VerticalAlignment = VerticalAlignment.Center,
             };
             portLabel.SetResourceReference(TextBlock.ForegroundProperty, "TextBrush");
