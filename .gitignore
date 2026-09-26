@@ -4,3 +4,6 @@ dist/
 *.pext
 *.user
 .vs/
+
+.idea/
+
